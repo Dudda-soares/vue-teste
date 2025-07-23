@@ -1,47 +1,30 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import teste1 from './components/teste1.vue';
+import teste2 from './components/teste2.vue';
+import teste3 from './components/teste3.vue';
+import teste4 from './components/teste4.vue'; 
+import teste5 from './components/teste5.vue';
+import teste6 from './components/teste6.vue';
+import teste7 from './components/teste7.vue';
+import teste8 from './components/teste8.vue';
+import teste8P from './components/teste8P.vue';
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+ 
+<teste1/>
+<teste2/>
+<teste3/>
+<teste4/>
+<teste5/>
+<teste6/>
+<teste7/>
+<teste8/>
+<teste8-p/>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
